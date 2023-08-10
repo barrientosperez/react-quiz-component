@@ -102,6 +102,7 @@ const Core = function ({
       }
     } else {
       setCurrentQuestionIndex(currentQuestionIdx + 1);
+      document.body.style.background = "#009144";
     }
     window.scrollTo(0, 0);
   };
